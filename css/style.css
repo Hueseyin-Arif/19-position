@@ -1,0 +1,58 @@
+#first{
+    border: 1px solid black;
+    font-size: 26px;
+
+    /*position: static; standart form. Birsey degistirmiyo*/
+
+    /*position: relative; sag,sol,uste yada assagiya kaydirmak icin kullanilir*/
+   /* left: 50px; */
+    /*right: 100px;*/
+   /* bottom: 100px;*/
+  /*top: 30px;*/
+
+ /* position: fixed; ekranda sabit durmasi gereken birsey varsa kullanilir*/
+
+}
+
+.footer{
+    border: 3px solid green;
+    background-color: lightgreen;
+    height: 70px;
+    position: sticky; /* einfach yapisiyo*/
+   top: 0;
+   
+    width: 100%;
+}
+
+.whatsapp{
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+
+}
+
+.whatsapp img{
+    width: 50px;
+}
+
+.outer{
+    border: 1px solid black;
+    width: 400px;
+    height: 400px;
+    
+    position: relative;
+}
+
+.inner{
+border: 1px solid pink;
+width: 300px;
+height: 300px;
+background-color: pink;
+
+position: absolute;
+top: 50px;
+
+left: -305px; /* "-" ile overlap yapabilirsin. */
+
+
+}
